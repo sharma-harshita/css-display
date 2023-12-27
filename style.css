@@ -1,0 +1,17 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 10px;
+    border: 2px solid red;
+}
+
+.parent{
+    background-color: pink;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    margin: 10px;
+    border: 2px solid red;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    /* grid-template-columns: 50% 30% 20%; */
+    /* grid-template-columns: 200px 200px; */
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 200px 200px 100px;
+    grid-gap: 200px 50px;
+}

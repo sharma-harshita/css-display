@@ -1,0 +1,27 @@
+.box{
+    background-color: navy;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box1{
+    grid-column: 1/4;
+}
+
+.box2{
+    grid-row: 2/4;
+}
+
+.box3{
+    grid-column: 2/4;
+}
+
+.box6{
+    grid-column: 1/4;
+}
